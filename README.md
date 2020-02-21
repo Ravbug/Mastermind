@@ -51,9 +51,12 @@ Setup instructions:
 2. Create a virtual environment: `python -m venv env`
 3. Enter the virtual environment
    - Mac/Linux: `source env/bin/activate`
-   - Windows: 
-4. Install Pygame and Tkinter's dependency libraries (see above)
+   - Windows: `env\scripts\activate`
+4. Install Pygame and Tkinter's dependency libraries (see above, may not be necessary on Windows)
 5. Install the pypi requirements: `pip install -r requirements.txt`
 6. Run the game: `python Mastermind.py`
 
 To uninstall the game, simply delete the virtual environment folder and the script. Then uninstsall the external dependencies.
+
+## Screenshots!
+![The game running on Windows 10](https://user-images.githubusercontent.com/22283943/75075939-ea593d80-54cc-11ea-8cb1-2eff9ca9d1d8.png)
